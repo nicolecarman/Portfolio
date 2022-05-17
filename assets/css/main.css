@@ -2243,6 +2243,7 @@ input, select, textarea {
 			#main > section.one {
 				background-color: #81918E;
 				background-image: url("../../images/tim-mossholder-YTgBga_xgOE-unsplash.jpg");
+				filter: blur(10px);
 			}
 
 			#main > section.two {
