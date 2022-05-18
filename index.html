@@ -157,16 +157,14 @@
 							with others. If you would like to get in touch with me, please email me
 							at <a href="mailto:nicolecarman90@outlook.com">nicolecarman90@outlook.com</a> or use my contact form below.</p>
 
-							<form method="post" name="contactform" action="contact-form-handler.php"> 
+							<form method="post" action="contact-form-handler.php"> 
 								<div class="row">
-									<div class="col-6 col-12-mobile"><input type="text" name="name" placeholder="Name" /></div>
-									<div class="col-6 col-12-mobile"><input type="text" name="email" placeholder="Email" /></div>
-									<div class="col-12">
-										<textarea name="message" placeholder="Message"></textarea>
-									</div>
-									<div class="col-12">
-										<input type="submit" value="Send Message" />
-									</div>
+									<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
+										<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
+										<div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
+									<ul class="actions">
+									<li><input type="submit" value="Send Message" /></li>
+									</ul>
 								</div>
 							</form>
 
